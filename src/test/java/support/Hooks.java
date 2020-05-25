@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import static support.TestContext.getDriver;
 
+
 public class Hooks {
 
     @Before(order = 0)
@@ -26,3 +27,4 @@ public class Hooks {
         TestContext.teardown();
     }
 }
+
